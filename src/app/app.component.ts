@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pro';
+  title = 'angular demo project';
+  showgousbasha: boolean = false;
+
+  displaygousbasha(){ 
+
+  this.showgousbasha = true;
+  }
 }

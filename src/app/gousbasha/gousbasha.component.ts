@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./gousbasha.component.css']
 })
 export class GousbashaComponent {
-  listofusers: any = [];
+gousbasha: any = [
+"cv",
+"sasi",
+"nirajan",
+"sandeep",
+"sai",
+"naidu",
+"yashwanth",
+];
 
 }
